@@ -1,0 +1,9 @@
+class minutes{
+    public static void main(String[] args) {
+        int a=3456789;
+        int y=a/525600;
+        int c=a%525600;
+        int d=c/1440;
+    System.out.println(a+" minutes is approxmately "+y+" years "+d+" days ");
+    }
+}
